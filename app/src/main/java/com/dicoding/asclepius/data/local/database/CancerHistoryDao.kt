@@ -10,8 +10,8 @@ import com.dicoding.asclepius.data.local.entity.CancerHistory
 @Dao
 interface CancerHistoryDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(cancer: CancerHistory)
+    suspend fun insert(cancer: CancerHistory)
 
     @Query("SELECT * from cancerHistory ORDER BY id ASC")
-    fun getAllCancerHistories(): LiveData<List<CancerHistory>>
+    suspend fun getAllCancerHistories(): List<CancerHistory>
 }

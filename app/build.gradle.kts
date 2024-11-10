@@ -53,6 +53,7 @@ dependencies {
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation("androidx.room:room-ktx:2.6.1")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     ksp("androidx.room:room-compiler:2.5.0")

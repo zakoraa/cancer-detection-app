@@ -6,5 +6,5 @@ import retrofit2.http.Query
 
 interface ArticleService {
     @GET("top-headlines?q=cancer&category=health&language=en")
-    fun getHealthNews(@Query("apiKey") apiKey: String): ArticleResponse
+    suspend fun getHealthNews(@Query("apiKey") apiKey: String): ArticleResponse
 }

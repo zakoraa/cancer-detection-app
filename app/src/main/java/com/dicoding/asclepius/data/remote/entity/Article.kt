@@ -2,7 +2,7 @@ package com.dicoding.asclepius.data.remote.entity
 
 import com.google.gson.annotations.SerializedName
 
-data class ArticlesItem(
+data class Article(
     @field:SerializedName("publishedAt")
     val publishedAt: String? = null,
 
