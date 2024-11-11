@@ -21,12 +21,9 @@ class ArticleRepository private constructor(
             val healthNewsList = articles?.map { article ->
                 Article(
                     title = article?.title,
-                    publishedAt = article?.publishedAt,
                     urlToImage = article?.urlToImage,
                     url = article?.url,
                     source = article?.source,
-                    content = article?.content,
-                    description = article?.description
                 )
             }
             emit(ResultStatus.Success(healthNewsList ?: emptyList()))

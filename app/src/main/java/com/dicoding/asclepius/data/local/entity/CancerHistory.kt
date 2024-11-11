@@ -20,5 +20,5 @@ data class CancerHistory(
     var result: String? = null,
 
     @ColumnInfo(name = "confidence_score")
-    var confidenceScore: String? = null
+    var confidenceScore: Int? = null
 ): Parcelable

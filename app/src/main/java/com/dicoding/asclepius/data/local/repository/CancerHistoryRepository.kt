@@ -33,7 +33,6 @@ class CancerHistoryRepository private constructor(
     }
 
     suspend fun insert(cancerHistory: CancerHistory) {
-
         cancerHistoryDao.insert(cancerHistory)
     }
 

@@ -24,6 +24,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:padding="5dp"
         android:background="@drawable/border_radius"
         android:contentDescription="@string/preview_image"
         app:layout_constraintBottom_toTopOf="@+id/analyzeButton"

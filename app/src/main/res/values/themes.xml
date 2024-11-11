@@ -16,7 +16,7 @@
     <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
 
     <style name="TextTitle">
-        <item name="android:textSize">25sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
