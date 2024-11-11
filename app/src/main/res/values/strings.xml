@@ -9,4 +9,8 @@
     <string name="riwayat">Riwayat</string>
     <string name="tab_text_1">Cancer Detection</string>
     <string name="tab_text_2">Health News</string>
+    <string name="back_button">back button</string>
+    <string name="cancer_history">Cancer History</string>
+    <string name="link">Link</string>
+    <string name="no_data">No Data</string>
 </resources>

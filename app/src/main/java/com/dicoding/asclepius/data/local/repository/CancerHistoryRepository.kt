@@ -8,7 +8,7 @@ import com.dicoding.asclepius.data.local.database.CancerHistoryDao
 import com.dicoding.asclepius.data.local.entity.CancerHistory
 
 class CancerHistoryRepository private constructor(
-    private val cancerHistoryDao: CancerHistoryDao,
+    private val cancerHistoryDao: CancerHistoryDao
 ) {
 
     fun getAllCancerHistories(): LiveData<ResultStatus<List<CancerHistory>>> = liveData {

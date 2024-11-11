@@ -8,7 +8,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.dicoding.asclepius.data.ResultStatus
 import com.dicoding.asclepius.data.remote.entity.Article
-import com.dicoding.asclepius.helper.AppExecutors
 
 class ArticleRepository private constructor(
     private val articleService: ArticleService,
