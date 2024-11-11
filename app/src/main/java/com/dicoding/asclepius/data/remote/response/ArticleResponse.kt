@@ -4,7 +4,6 @@ import com.dicoding.asclepius.data.remote.entity.Article
 import com.google.gson.annotations.SerializedName
 
 data class ArticleResponse(
-
 	@field:SerializedName("totalResults")
 	val totalResults: Int? = null,
 

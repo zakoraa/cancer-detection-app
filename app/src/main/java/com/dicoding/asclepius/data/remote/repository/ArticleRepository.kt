@@ -38,7 +38,7 @@ class ArticleRepository private constructor(
         @Volatile
         private var instance: ArticleRepository? = null
         fun getInstance(
-           articleService: ArticleService,
+            articleService: ArticleService,
 
             ): ArticleRepository =
             instance ?: synchronized(this) {

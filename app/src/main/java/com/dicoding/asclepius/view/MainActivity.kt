@@ -1,13 +1,8 @@
 package com.dicoding.asclepius.view
 
-import android.Manifest
-import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.annotation.StringRes
-import androidx.viewpager2.widget.ViewPager2
 import com.dicoding.asclepius.R
 import com.dicoding.asclepius.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayout
