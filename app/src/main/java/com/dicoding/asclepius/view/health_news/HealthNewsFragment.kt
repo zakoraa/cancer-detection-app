@@ -51,6 +51,7 @@ class HealthNewsFragment : Fragment() {
 
                         is ResultStatus.Error -> {
                             progressBar.visibility = View.GONE
+                            noDataTextView.visibility = View.VISIBLE
                             Toast.makeText(
                                 requireContext(),
                                 "Terjadi kesalahan" + result.error,
